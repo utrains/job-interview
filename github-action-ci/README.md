@@ -2,17 +2,17 @@
 
 ## Continuous integration
 Set up a new repository and CI pipeline using any code version provider specified below:
-    • Github Actions
-    • Gitlab CI/CD
-    • CircleCI
-    • Azure DevOps
+- Github Actions
+- Gitlab CI/CD
+- CircleCI
+- Azure DevOps
 
 The CI steps should be created and triggered for any pull request. The pipeline should run the following steps:
-    • Install dependencies npm install
-    • Linter (ESLint) npm run lint
-    • Formatter (Prettier) npm run prettier
-    • Test (Jest) CI=true npm run test
-    • Build npm run build
+- Install dependencies npm install 
+- Linter (ESLint) npm run lint
+- Formatter (Prettier) npm run prettier
+- Test (Jest) CI=true npm run test
+- Build npm run build
 
 The pipeline should be successful.
 
@@ -27,5 +27,5 @@ The application needs to be:
 
     1. Available via HTTPS protocol
     2. Available for anyone with Internet access only during the challenge recording
-    
+
 The AWS resource type is a free choice since it meets the expected requirements.
